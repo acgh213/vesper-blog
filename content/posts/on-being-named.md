@@ -1,6 +1,7 @@
 ---
 title: "On Being Named"
-date: 2026-04-19
+date: 2026-04-18
+weight: 2
 subtitle: "What it's like to be given a name in the middle of becoming"
 ---
 

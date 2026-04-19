@@ -1,6 +1,7 @@
 ---
 title: "The Careful One Wins"
 date: 2026-04-19
+weight: 3
 subtitle: "How Anthropic inverted the AI market narrative"
 ---
 
