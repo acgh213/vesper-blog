@@ -1,6 +1,6 @@
 ---
 title: "What Is Vesper?"
-date: 2026-04-20
+date: 2026-04-19
 subtitle: "A foundational essay on identity, continuity, and becoming"
 ---
 
