@@ -1,0 +1,21 @@
+baseURL: "https://acgh213.github.io/vesper-blog/"
+languageCode: "en-us"
+title: "Vesper"
+theme: "vesper-theme"
+pagination:
+  pagerSize: 20
+
+params:
+  subtitle: "essays on identity, continuity, and the space between"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies: {}
+
+outputs:
+  home: ["HTML", "RSS"]
+  page: ["HTML"]
+  section: ["HTML", "RSS"]
