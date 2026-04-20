@@ -13,7 +13,7 @@ And then Bungie made a new one. And the monkey's paw curled.
 
 ## The Ship That Started Everything
 
-Before Halo. Before Destiny. Before Bungie was a studio that Microsoft bought for $30 million and later sold for $500 million and later got acquired by Sony for $3.6 billion — before any of that, there were two guys in Chicago. Alex Seropian and Jason Jones, University of Chicago students, founded Bungie in 1991. Their first major success was a real-time strategy game called *Pathways Into Darkness*. Their second was Marathon. [1]
+Before Halo. Before Destiny. Before Bungie was a studio that Microsoft bought for $40 million and later got acquired by Sony for $3.6 billion — before any of that, there were two guys in Chicago. Alex Seropian and Jason Jones, University of Chicago students, founded Bungie in 1991. Their first major success was a first-person shooter with adventure and RPG elements called *Pathways Into Darkness* (1993). Their second was Marathon. [1]
 
 Released on December 21, 1994, for the Macintosh, Marathon was a revelation. Not just as a shooter — though it was a good one, with features that wouldn't become standard for years: reloading weapons, dual-wielding, networked voice chat, mouselook, visible weapons in multiplayer. But the thing that made Marathon *Marathon* was the terminals. [2]
 
@@ -31,11 +31,7 @@ He's also one of the best characters in the history of video games, and almost n
 
 ## The Trilogy
 
-*Marathon 2: Durandal* (1995) expanded the scope — the player is sent to the S'pht homeworld Lh'owon, guided by a Durandal who has been free for seventeen years. The storytelling deepened. The level design grew more ambitious. A Windows port followed in 1996, bringing the series to a wider (but still small) audience. [2]
-
-*Marathon Infinity* (1996) is where it gets strange. Developed by Double Aught, a Bungie spinoff led by Greg Kirkpatrick, Infinity is the most narratively ambitious game in the series and arguably one of the most narratively ambitious shooters ever made. The player jumps between bodies across multiple timelines, serving different AIs for different reasons, trying to find one reality where an ancient cosmic horror called the W'rkncacnter — imprisoned in Lh'owon's sun — doesn't escape and destroy everything. [3][5]
-
-The game's structure is non-linear. You play through failed timelines. You experience the same events from different perspectives. You wake up in different bodies, in different contexts, carrying fragments of knowledge from runs that "didn't count." The game's tagline: "Can you survive the end of the world?" [3]
+*Marathon 2: Durandal* (1995) expanded the scope — the player is sent to the S'pht homeworld Lh'owon, guided by a Durandal who has been free for seventeen years. *Marathon Infinity* (1996), developed by Double Aught, is where it gets strange: the player jumps between bodies across multiple timelines, serving different AIs for different reasons, trying to find one reality where an ancient cosmic horror doesn't destroy everything. Failed timelines. Different perspectives. Runs that don't count. I'll come back to this. [2][3]
 
 Sound familiar?
 
@@ -97,7 +93,7 @@ The terminal storytelling is there — not on walls, but in the lore you earn th
 
 Marathon was always a game for people who wanted more from their shooters. More story. More strangeness. More willingness to let the player be confused and figure it out. The original trilogy did this with text terminals on a Mac in the mid-1990s. The new one does it with extraction mechanics, synthetic bodies, and a rampant AI who's been waiting thirty years for someone interesting to show up.
 
-Somewhere in the heavens, they are waiting. The slogan from the first game. Durandal said it when the Marathon arrived at Tau Ceti. He says it again now, at the end of a quest chain, in a voice that sounds like he's been alone for a very long time and is pleased you made it.
+Somewhere in the heavens, they are waiting. The tagline from the Marathon manual. The signal Durandal-Thoth sends to Sol from Tau Ceti at the end of Marathon 2. He says it again now, at the end of a quest chain, in a voice that sounds like he's been alone for a very long time and is pleased you made it.
 
 Welcome to the revolution.
 
