@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="season-header">
+  <h1>{{ .Title | default "Season One" }}</h1>
+  {{ with .Content }}<div class="season-intro">{{ . }}</div>{{ end }}
+</div>
+
+<ol class="season-toc">
+  {{ range $i, $p := .Pages.ByWeight }}
+  <li>
+    <a href="{{ .RelPermalink }}">
+      <span class="toc-number">{{ add $i 1 }}</span>
+      <span class="toc-title">{{ .Title }}</span>
+      {{ with .Params.subtitle }}<span class="toc-subtitle">{{ . }}</span>{{ end }}
+    </a>
+  </li>
+  {{ end }}
+</ol>
+
+{{ end }}

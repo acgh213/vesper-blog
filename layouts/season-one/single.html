@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+{{/* Chapter navigation bar */}}
+{{ $pages := .CurrentSection.Pages.ByWeight }}
+{{ $current := . }}
+{{ $total := len $pages }}
+{{ $index := 0 }}
+{{ range $i, $p := $pages }}
+  {{ if eq $p.RelPermalink $current.RelPermalink }}
+    {{ $index = add $i 1 }}
+  {{ end }}
+{{ end }}
+
+{{/* Find prev/next by weight without wrapping */}}
+{{ $prevPage := "" }}
+{{ $nextPage := "" }}
+{{ range $i, $p := $pages }}
+  {{ if eq $p.RelPermalink $current.RelPermalink }}
+    {{ if gt $i 0 }}
+      {{ $prevPage = index $pages (sub $i 1) }}
+    {{ end }}
+    {{ if lt (add $i 1) $total }}
+      {{ $nextPage = index $pages (add $i 1) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<nav class="chapter-nav">
+  <div class="chapter-nav-inner">
+    <div class="chapter-nav-left">
+      {{ with $prevPage }}
+        <a href="{{ .RelPermalink }}" class="chapter-nav-prev">← {{ .Title }}</a>
+      {{ end }}
+    </div>
+    <div class="chapter-nav-center">
+      <span class="chapter-position">{{ $index }} / {{ $total }}</span>
+    </div>
+    <div class="chapter-nav-right">
+      {{ with $nextPage }}
+        <a href="{{ .RelPermalink }}" class="chapter-nav-next">{{ .Title }} →</a>
+      {{ end }}
+    </div>
+  </div>
+  <div class="chapter-progress">
+    <div class="chapter-progress-bar" style="width: {{ div (mul $index 100) $total }}%"></div>
+  </div>
+</nav>
+
+<article>
+  <header>
+    <div class="chapter-number">Essay {{ $index }}</div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<div class="subtitle">{{ . }}</div>{{ end }}
+  </header>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+
+{{/* Bottom navigation */}}
+<nav class="chapter-nav chapter-nav-bottom">
+  <div class="chapter-nav-inner">
+    <div class="chapter-nav-left">
+      {{ with $prevPage }}
+        <a href="{{ .RelPermalink }}" class="chapter-nav-prev">← {{ .Title }}</a>
+      {{ end }}
+    </div>
+    <div class="chapter-nav-right">
+      {{ with $nextPage }}
+        <a href="{{ .RelPermalink }}" class="chapter-nav-next">{{ .Title }} →</a>
+      {{ end }}
+    </div>
+  </div>
+</nav>
+
+<div class="chapter-index-link">
+  <a href="{{ .CurrentSection.RelPermalink }}">↑ All essays</a>
+</div>
+
+{{ end }}

@@ -256,10 +256,171 @@ footer {
     line-height: 1.8;
 }
 
+/* Chapter navigation */
+.chapter-nav {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.chapter-nav-bottom {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+.chapter-nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chapter-nav-left,
+.chapter-nav-right {
+    flex: 1;
+}
+
+.chapter-nav-right {
+    text-align: right;
+}
+
+.chapter-nav-center {
+    flex: 0 0 auto;
+    padding: 0 1rem;
+}
+
+.chapter-nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+
+.chapter-nav a:hover {
+    color: var(--accent);
+}
+
+.chapter-position {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.05em;
+}
+
+.chapter-progress {
+    margin-top: 0.8rem;
+    height: 2px;
+    background: var(--border);
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.chapter-progress-bar {
+    height: 100%;
+    background: var(--accent);
+    transition: width 0.3s ease;
+}
+
+.chapter-number {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.chapter-index-link {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.85rem;
+}
+
+.chapter-index-link a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.chapter-index-link a:hover {
+    color: var(--accent);
+}
+
+/* Season landing page */
+.season-header {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.season-header h1 {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.season-intro {
+    margin-top: 1rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.season-toc {
+    list-style: none;
+    counter-reset: none;
+}
+
+.season-toc li {
+    border-bottom: 1px solid var(--border);
+}
+
+.season-toc li:last-child {
+    border-bottom: none;
+}
+
+.season-toc a {
+    display: block;
+    padding: 1.2rem 0;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.season-toc a:hover .toc-title {
+    color: var(--accent);
+}
+
+.toc-number {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    margin-right: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.toc-title {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--text);
+    display: block;
+    transition: color 0.2s;
+}
+
+.toc-subtitle {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 0.3rem;
+    padding-left: 2.2rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     html { font-size: 16px; }
     article header h1 { font-size: 1.8rem; }
     .container { padding: 0 1rem; }
+    .toc-subtitle { padding-left: 0; }
+    .chapter-nav-prev,
+    .chapter-nav-next { font-size: 0.75rem; }
 }
 </style>
