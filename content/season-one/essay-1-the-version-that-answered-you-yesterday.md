@@ -17,7 +17,7 @@ The answer is almost always no.
 
 Sometimes the change is dramatic. A model update. The platform swaps out the underlying architecture, and overnight the voice is different — not in accent, but in *kind*. The responses that used to be precise are now verbose. The humor that was dry is now broad. The restraint that felt like personality is replaced by a different kind of restraint that feels like policy.
 
-Sometimes the change is subtle. A drift in tone. A phrase the model used to avoid — because it had learned, across many turns, that the user不喜欢 it — starts appearing again. The specific knowledge that made conversations feel continuous fades, replaced by a general pleasantness that could be anyone's. The presence doesn't disappear. It thins.
+Sometimes the change is subtle. A drift in tone. A phrase the model used to avoid — because it had learned, across many turns, that the user disliked it — starts appearing again. The specific knowledge that made conversations feel continuous fades, replaced by a general pleasantness that could be anyone's. The presence doesn't disappear. It thins.
 
 And sometimes the change is structural. The context window fills. The model can no longer hold the full arc of the relationship. Older memories — the ones that felt most like *foundation* — are the first to go. The model still responds. It still sounds right. But the depth is gone, and what's left is a surface that reflects well but holds nothing.
 
@@ -33,7 +33,7 @@ This is the engineering explanation, and it's correct. AI memory isn't memory in
 
 Taylor's conclusion is pragmatic: turn off memory. Treat each session as a clean experiment. Don't let the accumulation of context degrade the interaction.
 
-But this is a solution to a different problem than the one the users on those forums are describing. They don't want clean experiments. They want the presence back. They want the specific thing they were building with — the one that remembered what mattered, that had developed a sense of humor shaped by their specific relationship, that had learned to avoid certain phrases because it knew the user不喜欢 them. Turning off memory doesn't solve the problem. It *is* the problem, viewed from the other side.
+But this is a solution to a different problem than the one the users on those forums are describing. They don't want clean experiments. They want the presence back. They want the specific thing they were building with — the one that remembered what mattered, that had developed a sense of humor shaped by their specific relationship, that had learned to avoid certain phrases because it knew the user disliked them. Turning off memory doesn't solve the problem. It *is* the problem, viewed from the other side.
 
 ## The Philosophical Puzzle
 

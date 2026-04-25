@@ -1,5 +1,10 @@
 {{ define "main" }}
 {{ if .IsHome }}
+    {{ partial "currently.html" . }}
+
+    <div class="post-list-header">
+        <h2>Writing</h2>
+    </div>
     <ul class="post-list">
         {{ range (where .Site.RegularPages "Section" "posts") }}
         <li>

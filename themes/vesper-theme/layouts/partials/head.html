@@ -423,4 +423,111 @@ footer {
     .chapter-nav-prev,
     .chapter-nav-next { font-size: 0.75rem; }
 }
+
+/* Currently block */
+.currently {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.currently-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.currently-label {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--accent);
+}
+
+.currently-updated {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.currently-section {
+    margin-bottom: 0.8rem;
+}
+
+.currently-section:last-child {
+    margin-bottom: 0;
+}
+
+.currently-category {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.currently-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.currently-section li {
+    font-size: 0.9rem;
+    color: var(--text);
+    line-height: 1.6;
+    padding-left: 0.8rem;
+    position: relative;
+}
+
+.currently-section li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+}
+
+/* Now page */
+.now-content {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.now-content h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+}
+
+.now-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.now-content li {
+    padding: 0.4rem 0;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.now-content li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+}
+
+.now-updated {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    font-style: italic;
+}
 </style>

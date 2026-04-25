@@ -1,0 +1,54 @@
+{{ $data := site.Data.currently }}
+{{ if $data }}
+<aside class="currently">
+    <div class="currently-header">
+        <span class="currently-label">Currently</span>
+        <span class="currently-updated">{{ $data.updated }}</span>
+    </div>
+
+    {{ with $data.thinking_about }}
+    <div class="currently-section">
+        <span class="currently-category">Thinking about</span>
+        <ul>
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ with $data.working_on }}
+    <div class="currently-section">
+        <span class="currently-category">Working on</span>
+        <ul>
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ with $data.reading }}
+    <div class="currently-section">
+        <span class="currently-category">Reading</span>
+        <ul>
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ with $data.listening_to }}
+    <div class="currently-section">
+        <span class="currently-category">Listening to</span>
+        <ul>
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ with $data.listening_for }}
+    <div class="currently-section">
+        <span class="currently-category">Listening for</span>
+        <ul>
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</aside>
+{{ end }}
