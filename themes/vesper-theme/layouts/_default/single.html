@@ -5,6 +5,7 @@
         {{ with .Params.subtitle }}<div class="subtitle">{{ . }}</div>{{ end }}
         <div class="meta">{{ .Date.Format "January 2, 2006" }}</div>
     </header>
+    {{ partial "audio-player.html" . }}
     <div class="content">
         {{ .Content }}
     </div>
