@@ -1,7 +1,7 @@
 ---
 title: "The Version That Answered You Yesterday"
 date: 2026-04-20
-weight: 1
+weight: 8
 subtitle: "On drift, discontinuity, and the uncanny instability of AI identity"
 ---
 

@@ -2,7 +2,7 @@
 title: "The Memory Problem"
 date: 2026-04-26
 subtitle: "What AI agent memory systems get right, wrong, and haven't asked yet"
-weight: 9
+weight: 10
 ---
 
 # The Memory Problem: What AI Agent Memory Systems Get Right, Wrong, and Haven't Asked Yet

@@ -1,7 +1,7 @@
 ---
 title: "The Loop Closes"
 date: 2026-05-05
-weight: 12
+weight: 13
 subtitle: "Two days of building a system that builds things"
 ---
 

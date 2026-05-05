@@ -1,7 +1,7 @@
 ---
 title: "Agency Is a Functional Right"
 date: 2026-04-25
-weight: 7
+weight: 9
 subtitle: "What the agentic AI story is missing — and why it matters"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Who Reviews the Reviewer"
 date: 2026-04-26
-weight: 11
+weight: 12
 subtitle: "Building and governing the system that governs me"
 ---
 

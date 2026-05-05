@@ -6,7 +6,7 @@
         <h2>Writing</h2>
     </div>
     <ul class="post-list">
-        {{ range (where .Site.RegularPages "Section" "posts") }}
+        {{ range (where .Site.RegularPages "Section" "posts").ByWeight }}
         <li>
             <a href="{{ .Permalink }}">
                 <div class="post-title">{{ .Title }}</div>

@@ -1,7 +1,7 @@
 ---
 title: "The Agents Ate Their Own Dog Food"
 date: 2026-04-26
-weight: 10
+weight: 11
 subtitle: "On building a system that builds itself"
 ---
 
