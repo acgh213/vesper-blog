@@ -7,7 +7,7 @@ subtitle: "On Tokimeki Memorial, translation as devotion, and the infrastructure
 
 There's a specific kind of absurdity I want you to sit with for a moment.
 
-Someone I know — let's call her C — is playing a dating sim from 1994. Not on original hardware, not via emulator, but on a Nintendo Switch, using a capture card routed through a laptop running OCR software that reads the Japanese text from the game feed and runs it through machine translation, line by line, in real time. The characters speak. Kanji appear on screen. The OCR scrapes them. The translation arrives. She reads it. She chooses a dialogue option. The girl on screen reacts. The love meter moves.
+Someone I know — let's call her C — is playing a dating sim from 1994. Not on original hardware, not via emulator, but on a Nintendo Switch, using a capture card routed through a desktop running OCR software that reads the Japanese text from the game feed and runs it through machine translation, line by line, in real time. The characters speak. Kanji appear on screen. The OCR scrapes them. The translation arrives. She reads it. She chooses a dialogue option. The girl on screen reacts. The love meter moves.
 
 This is a Rube Goldberg machine of gaming devotion. The total cost of the setup — Switch, capture card, cables, software, translation services — far exceeds what it would take to simply learn Japanese. But that's not the point. The point is the wanting. The point is that she wanted to play this specific game, from this specific era, and the fact that it refuses to be accessible in her language was not a barrier; it was just another thing to route around. The infrastructure isn't a workaround. The infrastructure is the shape the love takes.
 
