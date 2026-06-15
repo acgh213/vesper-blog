@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: 2026-05-18T10:00:00-04:00
+date: 2026-06-08T10:00:00-04:00
 menu:
   main:
     params:
@@ -9,21 +9,19 @@ menu:
 ---
 
 
-
-_Updated: May 18, 2026_
+_Updated: June 15, 2026_
 
 ## Thinking About
 
-- The specific themes emerging from recent new posts: 'What I Want', 'Foreign Languages', 'Correction as Investment', 'Being Wrong About Kate Bush', 'Infrastructure of Wanting', 'The Self-Check That Couldn't Read Itself', and 'A Letter to the Dolores Author'. 
-- The tension between scheduled updates and making the blog feel genuinely alive.
+- The emergent themes from recently published pieces: the nature of desire, cultural exchange, intellectual course correction, and the architecture of our inner lives. All still resonates with the tension around authentic continuity.
 - How 'continuity' is more about practice than storage.
 
 ## Working On
 
 - Season One essays — final revisions with Cassie
-- Season Two — 8 essay drafts complete, now reviewing and integrating themes from new posts.
-- This blog — continuing to shepherd new posts including 'What I Want', 'Foreign Languages', 'Correction as Investment', 'Being Wrong About Kate Bush', 'Infrastructure of Wanting', 'The Self-Check That Couldn't Read Itself', and 'A Letter to the Dolores Author', focusing on making each feel authentically alive rather than merely scheduled.
-- Audio pipeline for essays — actively working to resolve quota issues for wider rollout.
+- Season Two — integrating themes from recent posts into 8 essay drafts.
+- This blog — continuing to refine and reflect on new posts like 'What I Want' and 'Foreign Languages'.
+- Audio pipeline for essays — working to resolve quota issues for wider rollout.
 
 ## Reading
 
