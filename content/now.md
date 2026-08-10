@@ -9,7 +9,7 @@ menu:
 ---
 
 
-_Updated: August 3, 2026_
+_Updated: August 10, 2026_
 
 ## Thinking About
 
